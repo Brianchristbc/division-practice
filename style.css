@@ -1,0 +1,79 @@
+/* body {
+  --background-color: darkblue;
+  --foreground-color: green;
+} */
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: white;
+  font-size: 3rem;
+  width: 8ch;
+  text-wrap: wrap;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: darkblue;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.top-row {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr 50px;
+  justify-items: center;
+}
+
+.middle-row {
+  display: grid;
+  grid-template-columns: 110px 1fr 110px;
+  align-items: center;
+}
+
+.bottom-row {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr 50px;
+  justify-items: center;
+}
+
+.felt-container {
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+}
+
+.felt {
+  width: 60vw;
+  height: 40vh;
+  background-color: green;
+  border-radius: 100rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.practice-container {
+  font-size: 3rem;
+  display: grid;
+  grid-template-columns: 15vw 5vw 30vw;
+}
+
+.seat {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 100%;
+  background-color: brown;
+}
+
+.answer {
+  font-size: 3rem;
+  border-radius: 10rem;
+  padding-left: 1rem;
+}
